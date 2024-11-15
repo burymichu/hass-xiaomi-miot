@@ -1157,16 +1157,16 @@ TRANSLATION_LANGUAGES = {
             'target temperature': 'Temperatura docelowa',
             'temperature': 'Temperatura',
             'relative humidity': 'Wilgotność',
-            'illumination': 'Jasność',
-            'indicator light': 'Wskaźnik światła',
-            'physical control locked': 'Blokada fizyczna',
+            'illumination': 'Podświetlenie',
+            'indicator light': 'Podświetlenie wskaźnika',
+            'physical control locked': 'Blokada sterowania fizycznego',
         },
 
         'fan_level': {
             'auto': 'auto',
             # 'low': 'niski',
             # 'medium': 'średni',
-            # 'middle': 'średnio wysoki',
+            # 'middle': 'średni',
             # 'high': 'wysoki',
             'quiet': 'cichy',
             'turbo': 'turbo',
@@ -1197,7 +1197,7 @@ TRANSLATION_LANGUAGES = {
         'air_conditioner.mode': {
             'cool': 'chłodzenie',
             'dry': 'suszenie',
-            'fan': 'wiatrak',
+            'fan': 'wentylacja',
             'heat': 'grzanie',
         },
 
@@ -1214,21 +1214,21 @@ TRANSLATION_LANGUAGES = {
 
         'battery': {
             'battery battery level': 'poziom baterii',
-            'battery charging state': 'status baterii',
+            'battery charging state': 'status ładowania',
         },
 
         'fan.mode': {
             'basic': 'podstawowy',
-            'basic wind': 'podstawowy wiatr',
-            'straight wind': 'prosty wiatr',
-            'natural wind': 'naturalny wiatr',
+            'basic wind': 'nawiew podstawowy',
+            'straight wind': 'nawiew prosty',
+            'natural wind': 'nawiew naturalny',
             'energy saving': 'oszczędzanie energii',
             'none': 'brak',
             'baby': 'dzieciecy',
             'smart': 'smart',
             'sleep': 'nocny',
             'strong': 'mocny',
-            'circular wind': 'cyrkulacja wiatrem',
+            'circular wind': 'nawiew cyrkulacyjny',
         },
 
         'ir_aircondition_control': {
@@ -1246,7 +1246,7 @@ TRANSLATION_LANGUAGES = {
             'auto': 'auto',
             'cool': 'chłodzenie',
             'dry': 'osuszanie',
-            'fan': 'wiatrak',
+            'fan': 'wentylator',
             'heat': 'ogrzewanie',
         },
 
@@ -1273,11 +1273,11 @@ TRANSLATION_LANGUAGES = {
 
         'motion_sensor': {
             'motion sensor': 'czujnik ruchu',
-            'motion sensor illumination': 'czujnik światła',
+            'motion sensor illumination': 'podświetlenie czujnika ruchu',
         },
 
         'physical_control_locked': {
-            'physical control locked': 'blokada fizyczna',
+            'physical control locked': 'Blokada sterowania fizycznego',
         },
 
         'play_control': {
@@ -1288,7 +1288,7 @@ TRANSLATION_LANGUAGES = {
         'power_consumption': {
             'power consumption': 'pobór energii',
             'power consumption electric power': 'moc',
-            'power consumption electric current': 'prąd',
+            'power consumption electric current': 'natężenie',
             'power consumption electric voltage': 'napięcie',
         },
 
@@ -1296,7 +1296,7 @@ TRANSLATION_LANGUAGES = {
             'ptc bath heater': 'grzejnik łazienkowy',
         },
         'ptc_bath_heater.mode': {
-            'fan': 'wiatrak',
+            'fan': 'wentylator',
             'heat': 'ogrzewanie',
             'ventilate': 'wentylacja',
             'dry': 'osuszanie',
